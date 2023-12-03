@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WEB-115 Final Project</title>
+        <meta name="Creator" content="Angelica West">
+        <meta name="Class-Info" content="Web-115-0001">
+        <meta name="Project" content="Build a creative weekly meal planner website">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style200.css">
+    </head>
+    <body>
+        <main>
+            <!--banner-->
+            <header>
+                <img src ="One_Step.png" alt = "logo" id = "logo">
+                <img src = "Banner.png" alt = "Angelica West Web-115-0001 & BUILD YOUR MEAL PLAN" id = "banner">
+            </header>
+            <!--Personal info name,email and goal-->
+            <form id ="personalInfo" >
+                <label for = "fname">First name</label>
+                <br>
+                <input type = "text" id ="fname" placeholder ="Tony">
+                <br><br>
+                <label for = "lname">last name</label>
+                <br>
+                <input type = "text" id ="lname" placeholder ="Stark">
+                <br><br>
+                <!--Create a class for specified labels not textareas!-->
+                <label for = "email">Email</label>
+                <br>
+                <input autocomplete="email" type="email" id = "email" placeholder ="EmailAngel@gmail.com">
+                <br><br>
+                <label for = "goal" class="labeltext">My Goal this week is:</label>
+                <br>
+                <textarea rows ="15" cols="15" id="goal" name="weekGoal" class="text"></textarea>
+                <br><br>
+                
+                <section id ="days">
+                    <label for = "day1" class="labeltext">Monday:</label>
+                    <br>
+                    <textarea rows ="20" cols="25" id = "day1" name = "weekGoal" class="text">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+
+                    <br><br>
+                    <label for = "day2" class="labeltext">Tuesday:</label>
+                    <br>
+                    <textarea rows ="20" cols="25" id = "day2" name = "weekGoal" class="text">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+
+                    <br><br>
+                    <label for = "day3" class="labeltext">Wednesday:</label>
+                    <br>
+                    <textarea rows="20" cols="25" id="day3" name="weekGoal" class="text">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+                    <br><br>
+                    <label for = "day4" class="labeltext">Thursday:</label>
+                    <br>
+                    <textarea rows ="20" class="text" cols="25" id = "day4" name = "weekGoal">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+
+                    <br><br>
+                    <label for = "day5" class="labeltext">Friday:</label>
+                    <br>
+                    <textarea rows ="20" cols="25" class="text" id = "day5" name = "weekGoal">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+
+                    <br><br>
+                    <label for = "day6" class="labeltext">Saturday:</label>
+                    <br>
+                    <textarea rows ="20" cols="25" class ="text" id = "day6" name = "weekGoal">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+
+                    <br><br>
+                    <label for = "day7" class="labeltext">Sunday:</label>
+                    <br>
+                    <textarea rows ="20" cols="25" id = "day7" class="text" name = "weekGoal">
+                        Breakfast:&nbsp;
+                        &nbsp;
+                        Lunch:&nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                        &nbsp;
+                        Dinner:&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        Snacks:&nbsp;
+                    </textarea>
+                    <br><br>
+
+            </section>
+            <section id ="submit">
+                <!-- Button needs to be type="submit to work in a form as a submit button"-->
+                <button type = "submit" id = "submitbtn">Ready for change!</button>
+            </section>
+            </form>
+        </main>
+        <script src="projectJS.js" defer></script>
+    </body>
+</html>
