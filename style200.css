@@ -1,0 +1,99 @@
+header{
+    display:flex;
+    /*flex-direction: column;*/
+    height:20%;
+    width:100%;
+    /*keep banner at top*/
+    /*main axis currently row/horizontal use justifyCONTENT*/
+    justify-content: center;
+    /*cross axis currently: column/vertical use align-items:*/
+    align-items: start;/*made size bigger*/
+    /*makes it touch the tip of start*/
+   position: absolute;
+   top:0;
+   left:0;
+   right:0;
+
+   
+ 
+}
+
+textarea,input{
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+    text-align:left;
+    border-color: rgb(153, 153, 255);
+    border-radius: 15%;
+    /*add more padding for radius not to take away
+    the wording(or could lower & of border radius)*/
+    padding-left:20px;
+    border-style: double;
+    border-width: 20px;
+}
+
+input{
+    /*make input padding wider!:*/
+    padding:2px;
+}
+
+body{
+    background-color:rgba(140, 102, 255, 0.8);
+}
+
+#days label{
+    font-weight:bold;
+    font-size:30px;
+    color:rgb(61, 61, 92);
+    text-align:left;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* moves entire form down
+    so position:absolute header is not underneath it*/
+    margin-top:60%;
+}
+
+button{
+    text-align:center;
+    background-color: rgb(102, 102, 153);
+    color:rgb(230, 230, 255);
+    width:90px;
+}
+
+button:hover{
+    color:rgb(102, 0, 255);
+    font-weight:bold;
+    background-color:rgb(153, 153, 255);
+}
+
+#submit{
+    display:flex;
+    justify-content: center;
+}
+
+#goal{
+    font-weight:bold;
+    font-size:20px;
+    color:rgb(61, 61, 92);
+}
+label{font-weight:bold;
+    font-size:15px;}
+
+#logo{
+    /*Makes logo the same size for header area within
+    the webpage and had to guesstimate the % amount for each*/
+   height:143.5%;
+   width:100%;
+}
+#banner{
+    /*then noticed logo became too big when full screen
+    so I made the banner take up more width space,but maintain
+    the same height(height:143.5%;)*/
+    height:143.5%;
+    width:200%;
+}
